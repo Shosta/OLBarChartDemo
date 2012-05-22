@@ -88,11 +88,12 @@
   return 50;
 }
 
-/*
-- (UIColor *)barChart:(OLBarChartScrollView *)barChart backgroundColorForBarAtIndexPath:(NSIndexPath *)indexPath{
-  return [UIColor blueColor];
-}
-*/
+/**
+ @brief Define the color of the gauge according to its position on the Barchart. 
+ @author : Rémi Lavedrine
+ @date : 22/05/2012 
+ @remarks : <#(optional)#>
+ */
 - (UIColor *)barChart:(OLBarChartScrollView *)barChart colorForGaugeAtIndexPath:(NSIndexPath *)indexPath{
   if ( indexPath.section == 0 ) {
     return [UIColor redColor];
