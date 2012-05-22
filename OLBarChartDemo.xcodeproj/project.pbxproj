@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2670D28140BC4780028EC6B /* NSMutableArray+QueueAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F2670D27140BC4780028EC6B /* NSMutableArray+QueueAdditions.m */; };
+		F2AFAC64140EA8C400725FBE /* SectionnedBarChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AFAC62140EA8C400725FBE /* SectionnedBarChartViewController.m */; };
+		F2AFAC65140EA8C400725FBE /* SectionnedBarChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2AFAC63140EA8C400725FBE /* SectionnedBarChartViewController.xib */; };
+		F2DAD459140F769E00209DFB /* NumerousBarChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DAD457140F769E00209DFB /* NumerousBarChartViewController.m */; };
+		F2DAD45A140F769E00209DFB /* NumerousBarChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2DAD458140F769E00209DFB /* NumerousBarChartViewController.xib */; };
+		F2DAD472140F86E300209DFB /* SelectBarChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DAD470140F86E300209DFB /* SelectBarChartViewController.m */; };
+		F2DAD473140F86E300209DFB /* SelectBarChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2DAD471140F86E300209DFB /* SelectBarChartViewController.xib */; };
+		F2DAD4CC140FB34900209DFB /* jauge_shadow_paysage.png in Resources */ = {isa = PBXBuildFile; fileRef = F2DAD4C7140FB34900209DFB /* jauge_shadow_paysage.png */; };
+		F2DAD4CD140FB34900209DFB /* jauge_shadow_portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = F2DAD4C8140FB34900209DFB /* jauge_shadow_portrait.png */; };
+		F2DAD4CF140FB34900209DFB /* jauge_shadow_portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2DAD4CB140FB34900209DFB /* jauge_shadow_portrait@2x.png */; };
+		F2DAD4EE140FB87500209DFB /* jauge_shadow_paysage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2DAD4ED140FB87500209DFB /* jauge_shadow_paysage@2x.png */; };
+		F2DAD504140FB9F000209DFB /* appIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F2DAD4F1140FB9F000209DFB /* appIcon.png */; };
+		F2DAD505140FB9F000209DFB /* barchart-blue.png in Resources */ = {isa = PBXBuildFile; fileRef = F2DAD4F3140FB9F000209DFB /* barchart-blue.png */; };
+		F2DAD506140FB9F000209DFB /* barchart-grey.png in Resources */ = {isa = PBXBuildFile; fileRef = F2DAD4F4140FB9F000209DFB /* barchart-grey.png */; };
+		F2DAD507140FB9F000209DFB /* barchart-multicolor.png in Resources */ = {isa = PBXBuildFile; fileRef = F2DAD4F5140FB9F000209DFB /* barchart-multicolor.png */; };
+		F2DAD508140FB9F000209DFB /* barchart-red.png in Resources */ = {isa = PBXBuildFile; fileRef = F2DAD4F6140FB9F000209DFB /* barchart-red.png */; };
+		F2DAD509140FB9F000209DFB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F2DAD4F7140FB9F000209DFB /* Default.png */; };
+		F2DAD50A140FB9F000209DFB /* touch_down.png in Resources */ = {isa = PBXBuildFile; fileRef = F2DAD4F9140FB9F000209DFB /* touch_down.png */; };
+		F2DAD50B140FB9F000209DFB /* appIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2DAD4FB140FB9F000209DFB /* appIcon@2x.png */; };
+		F2DAD50C140FB9F000209DFB /* barchart-blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2DAD4FD140FB9F000209DFB /* barchart-blue@2x.png */; };
+		F2DAD50D140FB9F000209DFB /* barchart-grey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2DAD4FE140FB9F000209DFB /* barchart-grey@2x.png */; };
+		F2DAD50E140FB9F000209DFB /* barchart-multicolor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2DAD4FF140FB9F000209DFB /* barchart-multicolor@2x.png */; };
+		F2DAD50F140FB9F000209DFB /* barchart-red@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2DAD500140FB9F000209DFB /* barchart-red@2x.png */; };
+		F2DAD510140FB9F000209DFB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2DAD501140FB9F000209DFB /* Default@2x.png */; };
+		F2DAD511140FB9F000209DFB /* touch_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2DAD503140FB9F000209DFB /* touch_down@2x.png */; };
+		F2DAD513140FBAB400209DFB /* one_finger_drag@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2DAD512140FBAB400209DFB /* one_finger_drag@2x.png */; };
+		F2DAD515140FBABD00209DFB /* one_finger_drag.png in Resources */ = {isa = PBXBuildFile; fileRef = F2DAD514140FBABD00209DFB /* one_finger_drag.png */; };
+		F2DBE94613F40F2D004E94C5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DBE94513F40F2D004E94C5 /* UIKit.framework */; };
+		F2DBE94813F40F2D004E94C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DBE94713F40F2D004E94C5 /* Foundation.framework */; };
+		F2DBE94A13F40F2D004E94C5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DBE94913F40F2D004E94C5 /* CoreGraphics.framework */; };
+		F2DBE95013F40F2D004E94C5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F2DBE94E13F40F2D004E94C5 /* InfoPlist.strings */; };
+		F2DBE95313F40F2D004E94C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DBE95213F40F2D004E94C5 /* main.m */; };
+		F2DBE95613F40F2D004E94C5 /* OLBarChartDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DBE95513F40F2D004E94C5 /* OLBarChartDemoAppDelegate.m */; };
+		F2DBE95913F40F2D004E94C5 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2DBE95713F40F2D004E94C5 /* MainWindow.xib */; };
+		F2DBE95C13F40F2D004E94C5 /* ColoredBarChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DBE95B13F40F2D004E94C5 /* ColoredBarChartViewController.m */; };
+		F2DBE95F13F40F2D004E94C5 /* ColoredBarChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2DBE95D13F40F2D004E94C5 /* ColoredBarChartViewController.xib */; };
+		F2DBE97E13F40FDA004E94C5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DBE97D13F40FDA004E94C5 /* QuartzCore.framework */; };
+		F2DBE99213F4113C004E94C5 /* OLBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DBE98213F4113C004E94C5 /* OLBar.m */; };
+		F2DBE99513F4113C004E94C5 /* OLGauge+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DBE98F13F4113C004E94C5 /* OLGauge+Private.m */; };
+		F2DBE99613F4113C004E94C5 /* OLGauge.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DBE99113F4113C004E94C5 /* OLGauge.m */; };
+		F2DE77B01410CF73005C321F /* OLBarChartScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DE77AF1410CF73005C321F /* OLBarChartScrollView.m */; };
+		F2DE78081410DA2E005C321F /* OLBarChartScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DE78061410DA2E005C321F /* OLBarChartScrollViewController.m */; };
+		F2DE78091410DA2E005C321F /* OLBarChartScrollViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2DE78071410DA2E005C321F /* OLBarChartScrollViewController.xib */; };
+		F2DE780E1410FE30005C321F /* TestBarChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DE780C1410FE2F005C321F /* TestBarChartViewController.m */; };
+		F2DE780F1410FE30005C321F /* TestBarChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2DE780D1410FE2F005C321F /* TestBarChartViewController.xib */; };
+		F2DE782B1411119F005C321F /* ViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DE782A1411119F005C321F /* ViewHelper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F2670D26140BC4780028EC6B /* NSMutableArray+QueueAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+QueueAdditions.h"; path = "Utilities/NSMutableArray+QueueAdditions.h"; sourceTree = "<group>"; };
+		F2670D27140BC4780028EC6B /* NSMutableArray+QueueAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+QueueAdditions.m"; path = "Utilities/NSMutableArray+QueueAdditions.m"; sourceTree = "<group>"; };
+		F2AFAC61140EA8C400725FBE /* SectionnedBarChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SectionnedBarChartViewController.h; path = "Demo Files/SectionnedBarChartViewController/SectionnedBarChartViewController.h"; sourceTree = "<group>"; };
+		F2AFAC62140EA8C400725FBE /* SectionnedBarChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SectionnedBarChartViewController.m; path = "Demo Files/SectionnedBarChartViewController/SectionnedBarChartViewController.m"; sourceTree = "<group>"; };
+		F2AFAC63140EA8C400725FBE /* SectionnedBarChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SectionnedBarChartViewController.xib; path = "Demo Files/SectionnedBarChartViewController/SectionnedBarChartViewController.xib"; sourceTree = "<group>"; };
+		F2DAD456140F769E00209DFB /* NumerousBarChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NumerousBarChartViewController.h; path = "Demo Files/NumerousBarChartViewController/NumerousBarChartViewController.h"; sourceTree = "<group>"; };
+		F2DAD457140F769E00209DFB /* NumerousBarChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NumerousBarChartViewController.m; path = "Demo Files/NumerousBarChartViewController/NumerousBarChartViewController.m"; sourceTree = "<group>"; };
+		F2DAD458140F769E00209DFB /* NumerousBarChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NumerousBarChartViewController.xib; path = "Demo Files/NumerousBarChartViewController/NumerousBarChartViewController.xib"; sourceTree = "<group>"; };
+		F2DAD46F140F86E300209DFB /* SelectBarChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SelectBarChartViewController.h; path = "Demo Files/SelectBarChartViewController/SelectBarChartViewController.h"; sourceTree = "<group>"; };
+		F2DAD470140F86E300209DFB /* SelectBarChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SelectBarChartViewController.m; path = "Demo Files/SelectBarChartViewController/SelectBarChartViewController.m"; sourceTree = "<group>"; };
+		F2DAD471140F86E300209DFB /* SelectBarChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SelectBarChartViewController.xib; path = "Demo Files/SelectBarChartViewController/SelectBarChartViewController.xib"; sourceTree = "<group>"; };
+		F2DAD4C7140FB34900209DFB /* jauge_shadow_paysage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jauge_shadow_paysage.png; sourceTree = "<group>"; };
+		F2DAD4C8140FB34900209DFB /* jauge_shadow_portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jauge_shadow_portrait.png; sourceTree = "<group>"; };
+		F2DAD4CB140FB34900209DFB /* jauge_shadow_portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jauge_shadow_portrait@2x.png"; sourceTree = "<group>"; };
+		F2DAD4ED140FB87500209DFB /* jauge_shadow_paysage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jauge_shadow_paysage@2x.png"; sourceTree = "<group>"; };
+		F2DAD4F1140FB9F000209DFB /* appIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appIcon.png; sourceTree = "<group>"; };
+		F2DAD4F3140FB9F000209DFB /* barchart-blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "barchart-blue.png"; sourceTree = "<group>"; };
+		F2DAD4F4140FB9F000209DFB /* barchart-grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "barchart-grey.png"; sourceTree = "<group>"; };
+		F2DAD4F5140FB9F000209DFB /* barchart-multicolor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "barchart-multicolor.png"; sourceTree = "<group>"; };
+		F2DAD4F6140FB9F000209DFB /* barchart-red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "barchart-red.png"; sourceTree = "<group>"; };
+		F2DAD4F7140FB9F000209DFB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F2DAD4F9140FB9F000209DFB /* touch_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = touch_down.png; sourceTree = "<group>"; };
+		F2DAD4FB140FB9F000209DFB /* appIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appIcon@2x.png"; sourceTree = "<group>"; };
+		F2DAD4FD140FB9F000209DFB /* barchart-blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "barchart-blue@2x.png"; sourceTree = "<group>"; };
+		F2DAD4FE140FB9F000209DFB /* barchart-grey@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "barchart-grey@2x.png"; sourceTree = "<group>"; };
+		F2DAD4FF140FB9F000209DFB /* barchart-multicolor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "barchart-multicolor@2x.png"; sourceTree = "<group>"; };
+		F2DAD500140FB9F000209DFB /* barchart-red@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "barchart-red@2x.png"; sourceTree = "<group>"; };
+		F2DAD501140FB9F000209DFB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F2DAD503140FB9F000209DFB /* touch_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "touch_down@2x.png"; sourceTree = "<group>"; };
+		F2DAD512140FBAB400209DFB /* one_finger_drag@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "one_finger_drag@2x.png"; sourceTree = "<group>"; };
+		F2DAD514140FBABD00209DFB /* one_finger_drag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = one_finger_drag.png; sourceTree = "<group>"; };
+		F2DBE94113F40F2D004E94C5 /* OLBarChartDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OLBarChartDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2DBE94513F40F2D004E94C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F2DBE94713F40F2D004E94C5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F2DBE94913F40F2D004E94C5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F2DBE94D13F40F2D004E94C5 /* OLBarChartDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OLBarChartDemo-Info.plist"; sourceTree = "<group>"; };
+		F2DBE94F13F40F2D004E94C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F2DBE95113F40F2D004E94C5 /* OLBarChartDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OLBarChartDemo-Prefix.pch"; sourceTree = "<group>"; };
+		F2DBE95213F40F2D004E94C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F2DBE95413F40F2D004E94C5 /* OLBarChartDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OLBarChartDemoAppDelegate.h; sourceTree = "<group>"; };
+		F2DBE95513F40F2D004E94C5 /* OLBarChartDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OLBarChartDemoAppDelegate.m; sourceTree = "<group>"; };
+		F2DBE95813F40F2D004E94C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		F2DBE95A13F40F2D004E94C5 /* ColoredBarChartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ColoredBarChartViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		F2DBE95B13F40F2D004E94C5 /* ColoredBarChartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ColoredBarChartViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		F2DBE95E13F40F2D004E94C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ColoredBarChartViewController.xib; sourceTree = "<group>"; };
+		F2DBE97D13F40FDA004E94C5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F2DBE98113F4113C004E94C5 /* OLBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OLBar.h; sourceTree = "<group>"; };
+		F2DBE98213F4113C004E94C5 /* OLBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OLBar.m; sourceTree = "<group>"; };
+		F2DBE98913F4113C004E94C5 /* OLBarChartDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = OLBarChartDataSource.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		F2DBE98B13F4113C004E94C5 /* OLBarChartDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = OLBarChartDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		F2DBE98D13F4113C004E94C5 /* Gauge-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Gauge-Prefix.pch"; sourceTree = "<group>"; };
+		F2DBE98E13F4113C004E94C5 /* OLGauge+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OLGauge+Private.h"; sourceTree = "<group>"; };
+		F2DBE98F13F4113C004E94C5 /* OLGauge+Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OLGauge+Private.m"; sourceTree = "<group>"; };
+		F2DBE99013F4113C004E94C5 /* OLGauge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OLGauge.h; sourceTree = "<group>"; };
+		F2DBE99113F4113C004E94C5 /* OLGauge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OLGauge.m; sourceTree = "<group>"; };
+		F2DE77AE1410CF73005C321F /* OLBarChartScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OLBarChartScrollView.h; path = OLBarChartScrollView/OLBarChartScrollView.h; sourceTree = "<group>"; };
+		F2DE77AF1410CF73005C321F /* OLBarChartScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OLBarChartScrollView.m; path = OLBarChartScrollView/OLBarChartScrollView.m; sourceTree = "<group>"; };
+		F2DE78051410DA2E005C321F /* OLBarChartScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OLBarChartScrollViewController.h; path = OLBarChartScrollViewController/OLBarChartScrollViewController.h; sourceTree = "<group>"; };
+		F2DE78061410DA2E005C321F /* OLBarChartScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OLBarChartScrollViewController.m; path = OLBarChartScrollViewController/OLBarChartScrollViewController.m; sourceTree = "<group>"; };
+		F2DE78071410DA2E005C321F /* OLBarChartScrollViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OLBarChartScrollViewController.xib; path = OLBarChartScrollViewController/OLBarChartScrollViewController.xib; sourceTree = "<group>"; };
+		F2DE780B1410FE2F005C321F /* TestBarChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestBarChartViewController.h; path = "Demo Files/TestBarCHart/TestBarChartViewController.h"; sourceTree = "<group>"; };
+		F2DE780C1410FE2F005C321F /* TestBarChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestBarChartViewController.m; path = "Demo Files/TestBarCHart/TestBarChartViewController.m"; sourceTree = "<group>"; };
+		F2DE780D1410FE2F005C321F /* TestBarChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TestBarChartViewController.xib; path = "Demo Files/TestBarCHart/TestBarChartViewController.xib"; sourceTree = "<group>"; };
+		F2DE78291411119F005C321F /* ViewHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewHelper.h; path = Utilities/Helpers/ViewHelper/ViewHelper.h; sourceTree = "<group>"; };
+		F2DE782A1411119F005C321F /* ViewHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewHelper.m; path = Utilities/Helpers/ViewHelper/ViewHelper.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2DBE93E13F40F2D004E94C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2DBE97E13F40FDA004E94C5 /* QuartzCore.framework in Frameworks */,
+				F2DBE94613F40F2D004E94C5 /* UIKit.framework in Frameworks */,
+				F2DBE94813F40F2D004E94C5 /* Foundation.framework in Frameworks */,
+				F2DBE94A13F40F2D004E94C5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2670D24140BC40D0028EC6B /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F2670D26140BC4780028EC6B /* NSMutableArray+QueueAdditions.h */,
+				F2670D27140BC4780028EC6B /* NSMutableArray+QueueAdditions.m */,
+				F2DE782D141111A4005C321F /* Helpers */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		F2670D2C140BC8320028EC6B /* OLBarChartScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				F2DE77AE1410CF73005C321F /* OLBarChartScrollView.h */,
+				F2DE77AF1410CF73005C321F /* OLBarChartScrollView.m */,
+			);
+			name = OLBarChartScrollView;
+			sourceTree = "<group>";
+		};
+		F2AFAC41140E9B8500725FBE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F2DAD4EF140FB9F000209DFB /* Images */,
+			);
+			name = Resources;
+			path = OLBarChartDemo/Resources;
+			sourceTree = "<group>";
+		};
+		F2AFAC5F140EA66400725FBE /* Demo Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2AFAC60140EA86400725FBE /* ColouredBarChartViewController */,
+				F2AFAC66140EA8C900725FBE /* SectionnedBarChartViewController */,
+				F2DAD45C140F76A600209DFB /* NumerousBarChartViewController */,
+				F2DAD474140F86E800209DFB /* SelectBarChartViewController */,
+				F2DE78101410FF4B005C321F /* TestBarChartViewController */,
+			);
+			name = "Demo Files";
+			sourceTree = "<group>";
+		};
+		F2AFAC60140EA86400725FBE /* ColouredBarChartViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F2DBE95A13F40F2D004E94C5 /* ColoredBarChartViewController.h */,
+				F2DBE95B13F40F2D004E94C5 /* ColoredBarChartViewController.m */,
+				F2DBE95D13F40F2D004E94C5 /* ColoredBarChartViewController.xib */,
+			);
+			name = ColouredBarChartViewController;
+			sourceTree = "<group>";
+		};
+		F2AFAC66140EA8C900725FBE /* SectionnedBarChartViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F2AFAC61140EA8C400725FBE /* SectionnedBarChartViewController.h */,
+				F2AFAC62140EA8C400725FBE /* SectionnedBarChartViewController.m */,
+				F2AFAC63140EA8C400725FBE /* SectionnedBarChartViewController.xib */,
+			);
+			name = SectionnedBarChartViewController;
+			sourceTree = "<group>";
+		};
+		F2DAD45C140F76A600209DFB /* NumerousBarChartViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F2DAD456140F769E00209DFB /* NumerousBarChartViewController.h */,
+				F2DAD457140F769E00209DFB /* NumerousBarChartViewController.m */,
+				F2DAD458140F769E00209DFB /* NumerousBarChartViewController.xib */,
+			);
+			name = NumerousBarChartViewController;
+			sourceTree = "<group>";
+		};
+		F2DAD474140F86E800209DFB /* SelectBarChartViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F2DAD46F140F86E300209DFB /* SelectBarChartViewController.h */,
+				F2DAD470140F86E300209DFB /* SelectBarChartViewController.m */,
+				F2DAD471140F86E300209DFB /* SelectBarChartViewController.xib */,
+			);
+			name = SelectBarChartViewController;
+			sourceTree = "<group>";
+		};
+		F2DAD4C5140FB34900209DFB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F2DAD4C6140FB34900209DFB /* 3G */,
+				F2DAD4C9140FB34900209DFB /* 4G */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F2DAD4C6140FB34900209DFB /* 3G */ = {
+			isa = PBXGroup;
+			children = (
+				F2DAD4C7140FB34900209DFB /* jauge_shadow_paysage.png */,
+				F2DAD4C8140FB34900209DFB /* jauge_shadow_portrait.png */,
+			);
+			path = 3G;
+			sourceTree = "<group>";
+		};
+		F2DAD4C9140FB34900209DFB /* 4G */ = {
+			isa = PBXGroup;
+			children = (
+				F2DAD4ED140FB87500209DFB /* jauge_shadow_paysage@2x.png */,
+				F2DAD4CB140FB34900209DFB /* jauge_shadow_portrait@2x.png */,
+			);
+			path = 4G;
+			sourceTree = "<group>";
+		};
+		F2DAD4EF140FB9F000209DFB /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F2DAD4F0140FB9F000209DFB /* 3G */,
+				F2DAD4FA140FB9F000209DFB /* 4G */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		F2DAD4F0140FB9F000209DFB /* 3G */ = {
+			isa = PBXGroup;
+			children = (
+				F2DAD4F1140FB9F000209DFB /* appIcon.png */,
+				F2DAD4F2140FB9F000209DFB /* barchartIcons */,
+				F2DAD4F7140FB9F000209DFB /* Default.png */,
+				F2DAD4F8140FB9F000209DFB /* GesturesImages */,
+			);
+			path = 3G;
+			sourceTree = "<group>";
+		};
+		F2DAD4F2140FB9F000209DFB /* barchartIcons */ = {
+			isa = PBXGroup;
+			children = (
+				F2DAD4F3140FB9F000209DFB /* barchart-blue.png */,
+				F2DAD4F4140FB9F000209DFB /* barchart-grey.png */,
+				F2DAD4F5140FB9F000209DFB /* barchart-multicolor.png */,
+				F2DAD4F6140FB9F000209DFB /* barchart-red.png */,
+			);
+			path = barchartIcons;
+			sourceTree = "<group>";
+		};
+		F2DAD4F8140FB9F000209DFB /* GesturesImages */ = {
+			isa = PBXGroup;
+			children = (
+				F2DAD514140FBABD00209DFB /* one_finger_drag.png */,
+				F2DAD4F9140FB9F000209DFB /* touch_down.png */,
+			);
+			path = GesturesImages;
+			sourceTree = "<group>";
+		};
+		F2DAD4FA140FB9F000209DFB /* 4G */ = {
+			isa = PBXGroup;
+			children = (
+				F2DAD4FB140FB9F000209DFB /* appIcon@2x.png */,
+				F2DAD4FC140FB9F000209DFB /* barchartIcons */,
+				F2DAD501140FB9F000209DFB /* Default@2x.png */,
+				F2DAD502140FB9F000209DFB /* GesturesImages */,
+			);
+			path = 4G;
+			sourceTree = "<group>";
+		};
+		F2DAD4FC140FB9F000209DFB /* barchartIcons */ = {
+			isa = PBXGroup;
+			children = (
+				F2DAD4FD140FB9F000209DFB /* barchart-blue@2x.png */,
+				F2DAD4FE140FB9F000209DFB /* barchart-grey@2x.png */,
+				F2DAD4FF140FB9F000209DFB /* barchart-multicolor@2x.png */,
+				F2DAD500140FB9F000209DFB /* barchart-red@2x.png */,
+			);
+			path = barchartIcons;
+			sourceTree = "<group>";
+		};
+		F2DAD502140FB9F000209DFB /* GesturesImages */ = {
+			isa = PBXGroup;
+			children = (
+				F2DAD512140FBAB400209DFB /* one_finger_drag@2x.png */,
+				F2DAD503140FB9F000209DFB /* touch_down@2x.png */,
+			);
+			path = GesturesImages;
+			sourceTree = "<group>";
+		};
+		F2DBE93613F40F2D004E94C5 = {
+			isa = PBXGroup;
+			children = (
+				F2DBE94B13F40F2D004E94C5 /* OLBarChartDemo */,
+				F2AFAC41140E9B8500725FBE /* Resources */,
+				F2DBE94413F40F2D004E94C5 /* Frameworks */,
+				F2DBE94213F40F2D004E94C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2DBE94213F40F2D004E94C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2DBE94113F40F2D004E94C5 /* OLBarChartDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2DBE94413F40F2D004E94C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2DBE94513F40F2D004E94C5 /* UIKit.framework */,
+				F2DBE94713F40F2D004E94C5 /* Foundation.framework */,
+				F2DBE94913F40F2D004E94C5 /* CoreGraphics.framework */,
+				F2DBE97D13F40FDA004E94C5 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2DBE94B13F40F2D004E94C5 /* OLBarChartDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F2DBE97F13F4113C004E94C5 /* OLBarChart */,
+				F2AFAC5F140EA66400725FBE /* Demo Files */,
+				F2DBE95413F40F2D004E94C5 /* OLBarChartDemoAppDelegate.h */,
+				F2DBE95513F40F2D004E94C5 /* OLBarChartDemoAppDelegate.m */,
+				F2DBE95713F40F2D004E94C5 /* MainWindow.xib */,
+				F2DBE94C13F40F2D004E94C5 /* Supporting Files */,
+			);
+			path = OLBarChartDemo;
+			sourceTree = "<group>";
+		};
+		F2DBE94C13F40F2D004E94C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2DBE94D13F40F2D004E94C5 /* OLBarChartDemo-Info.plist */,
+				F2DBE94E13F40F2D004E94C5 /* InfoPlist.strings */,
+				F2DBE95113F40F2D004E94C5 /* OLBarChartDemo-Prefix.pch */,
+				F2DBE95213F40F2D004E94C5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2DBE97F13F4113C004E94C5 /* OLBarChart */ = {
+			isa = PBXGroup;
+			children = (
+				F2670D24140BC40D0028EC6B /* Utilities */,
+				F2DBE98C13F4113C004E94C5 /* Gauge */,
+				F2DBE98013F4113C004E94C5 /* Bar */,
+				F2DBE98313F4113C004E94C5 /* BarChart */,
+				F2DBE98813F4113C004E94C5 /* BarChartDataSource */,
+				F2DBE98A13F4113C004E94C5 /* BarChartDelegate */,
+			);
+			path = OLBarChart;
+			sourceTree = "<group>";
+		};
+		F2DBE98013F4113C004E94C5 /* Bar */ = {
+			isa = PBXGroup;
+			children = (
+				F2DBE98113F4113C004E94C5 /* OLBar.h */,
+				F2DBE98213F4113C004E94C5 /* OLBar.m */,
+			);
+			path = Bar;
+			sourceTree = "<group>";
+		};
+		F2DBE98313F4113C004E94C5 /* BarChart */ = {
+			isa = PBXGroup;
+			children = (
+				F2670D2C140BC8320028EC6B /* OLBarChartScrollView */,
+				F2DE780A1410DA35005C321F /* OLBarChartScrollViewController */,
+			);
+			path = BarChart;
+			sourceTree = "<group>";
+		};
+		F2DBE98813F4113C004E94C5 /* BarChartDataSource */ = {
+			isa = PBXGroup;
+			children = (
+				F2DBE98913F4113C004E94C5 /* OLBarChartDataSource.h */,
+			);
+			path = BarChartDataSource;
+			sourceTree = "<group>";
+		};
+		F2DBE98A13F4113C004E94C5 /* BarChartDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				F2DBE98B13F4113C004E94C5 /* OLBarChartDelegate.h */,
+			);
+			path = BarChartDelegate;
+			sourceTree = "<group>";
+		};
+		F2DBE98C13F4113C004E94C5 /* Gauge */ = {
+			isa = PBXGroup;
+			children = (
+				F2DAD4C5140FB34900209DFB /* Resources */,
+				F2DBE98D13F4113C004E94C5 /* Gauge-Prefix.pch */,
+				F2DBE98E13F4113C004E94C5 /* OLGauge+Private.h */,
+				F2DBE98F13F4113C004E94C5 /* OLGauge+Private.m */,
+				F2DBE99013F4113C004E94C5 /* OLGauge.h */,
+				F2DBE99113F4113C004E94C5 /* OLGauge.m */,
+			);
+			path = Gauge;
+			sourceTree = "<group>";
+		};
+		F2DE780A1410DA35005C321F /* OLBarChartScrollViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F2DE78051410DA2E005C321F /* OLBarChartScrollViewController.h */,
+				F2DE78061410DA2E005C321F /* OLBarChartScrollViewController.m */,
+				F2DE78071410DA2E005C321F /* OLBarChartScrollViewController.xib */,
+			);
+			name = OLBarChartScrollViewController;
+			sourceTree = "<group>";
+		};
+		F2DE78101410FF4B005C321F /* TestBarChartViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F2DE780B1410FE2F005C321F /* TestBarChartViewController.h */,
+				F2DE780C1410FE2F005C321F /* TestBarChartViewController.m */,
+				F2DE780D1410FE2F005C321F /* TestBarChartViewController.xib */,
+			);
+			name = TestBarChartViewController;
+			sourceTree = "<group>";
+		};
+		F2DE782D141111A4005C321F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F2DE782E141111AD005C321F /* ViewHelper */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		F2DE782E141111AD005C321F /* ViewHelper */ = {
+			isa = PBXGroup;
+			children = (
+				F2DE78291411119F005C321F /* ViewHelper.h */,
+				F2DE782A1411119F005C321F /* ViewHelper.m */,
+			);
+			name = ViewHelper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2DBE94013F40F2D004E94C5 /* OLBarChartDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2DBE96213F40F2D004E94C5 /* Build configuration list for PBXNativeTarget "OLBarChartDemo" */;
+			buildPhases = (
+				F2DBE93D13F40F2D004E94C5 /* Sources */,
+				F2DBE93E13F40F2D004E94C5 /* Frameworks */,
+				F2DBE93F13F40F2D004E94C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OLBarChartDemo;
+			productName = OLBarChartDemo;
+			productReference = F2DBE94113F40F2D004E94C5 /* OLBarChartDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2DBE93813F40F2D004E94C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Orange Labs";
+			};
+			buildConfigurationList = F2DBE93B13F40F2D004E94C5 /* Build configuration list for PBXProject "OLBarChartDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F2DBE93613F40F2D004E94C5;
+			productRefGroup = F2DBE94213F40F2D004E94C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2DBE94013F40F2D004E94C5 /* OLBarChartDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2DBE93F13F40F2D004E94C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2DBE95013F40F2D004E94C5 /* InfoPlist.strings in Resources */,
+				F2DBE95913F40F2D004E94C5 /* MainWindow.xib in Resources */,
+				F2DBE95F13F40F2D004E94C5 /* ColoredBarChartViewController.xib in Resources */,
+				F2AFAC65140EA8C400725FBE /* SectionnedBarChartViewController.xib in Resources */,
+				F2DAD45A140F769E00209DFB /* NumerousBarChartViewController.xib in Resources */,
+				F2DAD473140F86E300209DFB /* SelectBarChartViewController.xib in Resources */,
+				F2DAD4CC140FB34900209DFB /* jauge_shadow_paysage.png in Resources */,
+				F2DAD4CD140FB34900209DFB /* jauge_shadow_portrait.png in Resources */,
+				F2DAD4CF140FB34900209DFB /* jauge_shadow_portrait@2x.png in Resources */,
+				F2DAD4EE140FB87500209DFB /* jauge_shadow_paysage@2x.png in Resources */,
+				F2DAD504140FB9F000209DFB /* appIcon.png in Resources */,
+				F2DAD505140FB9F000209DFB /* barchart-blue.png in Resources */,
+				F2DAD506140FB9F000209DFB /* barchart-grey.png in Resources */,
+				F2DAD507140FB9F000209DFB /* barchart-multicolor.png in Resources */,
+				F2DAD508140FB9F000209DFB /* barchart-red.png in Resources */,
+				F2DAD509140FB9F000209DFB /* Default.png in Resources */,
+				F2DAD50A140FB9F000209DFB /* touch_down.png in Resources */,
+				F2DAD50B140FB9F000209DFB /* appIcon@2x.png in Resources */,
+				F2DAD50C140FB9F000209DFB /* barchart-blue@2x.png in Resources */,
+				F2DAD50D140FB9F000209DFB /* barchart-grey@2x.png in Resources */,
+				F2DAD50E140FB9F000209DFB /* barchart-multicolor@2x.png in Resources */,
+				F2DAD50F140FB9F000209DFB /* barchart-red@2x.png in Resources */,
+				F2DAD510140FB9F000209DFB /* Default@2x.png in Resources */,
+				F2DAD511140FB9F000209DFB /* touch_down@2x.png in Resources */,
+				F2DAD513140FBAB400209DFB /* one_finger_drag@2x.png in Resources */,
+				F2DAD515140FBABD00209DFB /* one_finger_drag.png in Resources */,
+				F2DE78091410DA2E005C321F /* OLBarChartScrollViewController.xib in Resources */,
+				F2DE780F1410FE30005C321F /* TestBarChartViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2DBE93D13F40F2D004E94C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2DBE95313F40F2D004E94C5 /* main.m in Sources */,
+				F2DBE95613F40F2D004E94C5 /* OLBarChartDemoAppDelegate.m in Sources */,
+				F2DBE95C13F40F2D004E94C5 /* ColoredBarChartViewController.m in Sources */,
+				F2DBE99213F4113C004E94C5 /* OLBar.m in Sources */,
+				F2DBE99513F4113C004E94C5 /* OLGauge+Private.m in Sources */,
+				F2DBE99613F4113C004E94C5 /* OLGauge.m in Sources */,
+				F2670D28140BC4780028EC6B /* NSMutableArray+QueueAdditions.m in Sources */,
+				F2AFAC64140EA8C400725FBE /* SectionnedBarChartViewController.m in Sources */,
+				F2DAD459140F769E00209DFB /* NumerousBarChartViewController.m in Sources */,
+				F2DAD472140F86E300209DFB /* SelectBarChartViewController.m in Sources */,
+				F2DE77B01410CF73005C321F /* OLBarChartScrollView.m in Sources */,
+				F2DE78081410DA2E005C321F /* OLBarChartScrollViewController.m in Sources */,
+				F2DE780E1410FE30005C321F /* TestBarChartViewController.m in Sources */,
+				F2DE782B1411119F005C321F /* ViewHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F2DBE94E13F40F2D004E94C5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2DBE94F13F40F2D004E94C5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F2DBE95713F40F2D004E94C5 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2DBE95813F40F2D004E94C5 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		F2DBE95D13F40F2D004E94C5 /* ColoredBarChartViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2DBE95E13F40F2D004E94C5 /* en */,
+			);
+			name = ColoredBarChartViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2DBE96013F40F2D004E94C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F2DBE96113F40F2D004E94C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		F2DBE96313F40F2D004E94C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OLBarChartDemo/OLBarChartDemo-Prefix.pch";
+				INFOPLIST_FILE = "OLBarChartDemo/OLBarChartDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F2DBE96413F40F2D004E94C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OLBarChartDemo/OLBarChartDemo-Prefix.pch";
+				INFOPLIST_FILE = "OLBarChartDemo/OLBarChartDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2DBE93B13F40F2D004E94C5 /* Build configuration list for PBXProject "OLBarChartDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2DBE96013F40F2D004E94C5 /* Debug */,
+				F2DBE96113F40F2D004E94C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2DBE96213F40F2D004E94C5 /* Build configuration list for PBXNativeTarget "OLBarChartDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2DBE96313F40F2D004E94C5 /* Debug */,
+				F2DBE96413F40F2D004E94C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2DBE93813F40F2D004E94C5 /* Project object */;
+}
